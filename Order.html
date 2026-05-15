@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Wardah Skincare - Order</title>
+
+    <style>
+	
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: linear-gradient(to bottom, #dff8ff, #ffffff);
+        }
+
+        .container { width: 90%; margin: auto; }
+
+        .header {
+            background-color: #007fa3;
+            color: white;
+            padding: 20px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 15px;
+            font-weight: bold;
+        }
+
+        .nav a:hover { text-decoration: underline; }
+
+        .box {
+            background-color: white;
+            border: 2px solid #bfefff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 12px;
+        }
+
+        input, textarea, select {
+            width: 95%;
+            padding: 8px;
+            margin-top: 5px;
+            border: 1px solid #8bd9ee;
+            border-radius: 8px;
+        }
+
+        input[type="submit"] {
+            background-color: #007fa3;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            font-weight: bold;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #005f7a;
+        }
+
+        h2 { color: #007fa3; }
+
+        .footer {
+            background-color: #007fa3;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="container">
+            <h1>Wardah Skincare</h1>
+            <p>Form Pemesanan / Konsultasi</p>
+
+            <div class="nav">
+                <a href="index.html">Home</a>
+                <a href="Produk.html">Produk</a>
+                <a href="Harga.html">Harga</a>
+                <a href="Testimoni.html">Testimoni</a>
+                <a href="Order.html">Order</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="box">
+
+            <h2>Isi Data Pemesanan</h2>
+
+            <form>
+                <p>
+                    <label for="nama">Nama Lengkap:</label><br>
+                    <input type="text" name="nama">
+                </p>
+
+                <p>
+                    <label for="email">Email:</label><br>
+                    <input type="text" name="email">
+                </p>
+
+                <p>
+                    <label for="nohp">Nomor HP:</label><br>
+                    <input type="text" name="nohp">
+                </p>
+
+                <p>
+                    <label for="produk">Pilih Produk:</label><br>
+                    <select name="produk">
+                        <option> Wardah UV Shield Sunscreen Gel SPF 30</option>
+                        <option>Wardah Lightening Night Cream Advanced Niacinamide</option>
+                        <option>Wardah Sunscreen SPF 50</option>
+                        <option>Wardah Crystal Secret Foam Cleanser</option>
+						<option>Wardah Hydra Rose Micro Gel Serum</option>
+						<option>Wardah Renew You Anti Aging Night Cream</option>
+						<option>Wardah Colorfit Perfect Glow Cushion</option>
+						<option>Wardah Colorfit Last All Day Lip Paint</option>
+						<option>Wardah Exclusive Eyeshadow Palette</option>
+						<option> Wardah Nature Daily Aloe Hydramild Facial Wash</option>
+						<option>Paket Glowing & Flawless (Skincare + Makeup Base)</option>
+						<option>Paket Rutinitas Anti-Kusam & Anti-Aging (Full Skincare)</option>
+			
+						
+                    </select>
+                </p>
+
+                <p>
+                    <label for="pesan">Pesan / Keluhan Kulit:</label><br>
+                    <textarea name="pesan" rows="5"></textarea>
+                </p>
+
+                <p>
+                    <input type="submit" value="Kirim Data">
+                </p>
+            </form>
+
+            <p>
+                Email langsung:
+                <a href="mailto:wardahskincare@gmail.com">wardahskincare@gmail.com</a>
+            </p>
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Wardah Skincare</p>
+    </div>
+
+</body>
+</html>
